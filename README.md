@@ -37,9 +37,8 @@ RegisterNumber: 212221240031
 */
 ```
 ## MainActivity.java:
-
+```
 package com.firstapp.ex04;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.ContentValues;
@@ -88,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
+```
 ## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 </RelativeLayout>
 ```
 ## AndroidManifest.xml: 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" package="com.firstapp.ex04">
@@ -138,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
 </manifest>
 
-
+```
 ## Output:
 
 <img width="561" alt="mi-3" src="https://github.com/naramala-niharika/Ex_4/assets/94165377/f97d470d-b3ff-4d76-ae36-03b3d91576be">
