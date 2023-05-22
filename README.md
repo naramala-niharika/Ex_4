@@ -36,7 +36,6 @@ Developed by: Naramala Niharika
 RegisterNumber: 212221240031
 */
 ```
-
 ## MainActivity.java:
 ``
 package com.firstapp.ex04;
@@ -94,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-``
+
 ## activity_main.xml:
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-
+``
 
 ## Output:
 
