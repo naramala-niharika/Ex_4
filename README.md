@@ -35,9 +35,9 @@ Program to print the contact details by creating own content providers in Androi
 Developed by: Naramala Niharika
 RegisterNumber: 212221240031
 */
-```
+
 ## MainActivity.java:
-``
+
 package com.firstapp.ex04;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -142,8 +142,8 @@ public class MainActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-``
 
+```
 ## Output:
 
 <img width="561" alt="mi-3" src="https://github.com/naramala-niharika/Ex_4/assets/94165377/f97d470d-b3ff-4d76-ae36-03b3d91576be">
