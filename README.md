@@ -35,7 +35,7 @@ Program to print the contact details by creating own content providers in Androi
 Developed by: Naramala Niharika
 RegisterNumber: 212221240031
 */
-
+```
 ## MainActivity.java:
 
 package com.firstapp.ex04;
@@ -60,12 +60,8 @@ import android.util.Log;
 import android.view.View;
 
 import android.os.Bundle;
-
-
 import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
         Cursor cursor = contentResolver.query(uri,null,null,null,null,null);
         Log.i("CONTACT_PROVIDER","TOTAL # of CONTACTS ::: "+Integer.toString(cursor.getCount()));
-
         if(cursor.getCount()>0){
             while(cursor.moveToNext()){
                 @SuppressLint("Range") String ContactName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
@@ -95,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ## activity_main.xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -112,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         android:onClick="btnGetContacts"/>
 
 </RelativeLayout>
-
+```
 ## AndroidManifest.xml: 
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
 </manifest>
 
-```
+
 ## Output:
 
 <img width="561" alt="mi-3" src="https://github.com/naramala-niharika/Ex_4/assets/94165377/f97d470d-b3ff-4d76-ae36-03b3d91576be">
