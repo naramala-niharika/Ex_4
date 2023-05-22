@@ -38,7 +38,7 @@ RegisterNumber: 212221240031
 ```
 
 ## MainActivity.java:
-
+``
 package com.firstapp.ex04;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+``
 ## activity_main.xml:
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -113,7 +114,8 @@ public class MainActivity extends AppCompatActivity {
 
 </RelativeLayout>
 
-## AndroidManifest.xml
+## AndroidManifest.xml: 
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" package="com.firstapp.ex04">
